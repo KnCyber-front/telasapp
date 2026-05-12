@@ -73,6 +73,7 @@ class RegisterActivity : AppCompatActivity() {
             Toast.makeText(this, "Cadastro realizado com sucesso!", Toast.LENGTH_LONG).show()
 
             // Voltar para tela de login
+            btnIrLogin.setOnClickListener{
             startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
@@ -82,5 +83,6 @@ class RegisterActivity : AppCompatActivity() {
             startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
+    }
     }
 }

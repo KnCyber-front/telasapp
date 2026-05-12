@@ -30,28 +30,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/criar_conta2"
-                android:textSize="28sp"
-                android:textStyle="bold"
-                android:textColor="#1C1C1C"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="36dp" />
+                android:layout_marginBottom="36dp"
+                android:text="@string/criar_conta2"
+                android:textColor="#1C1C1C"
+                android:textSize="28sp"
+                android:textStyle="bold" />
 
             <!-- Name -->
-            <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:hint="@string/nome"
-                tools:ignore="ExtraText">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/edtEmail"
-                    tools:ignore="DuplicateIds,TouchTargetSizeCheck"  android:layout_height="10dp" android:layout_width="10dp"/>   <!-- Mantido como no Kotlin -->
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Telefone -->
             <com.google.android.material.textfield.TextInputLayout
@@ -66,7 +52,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="phone"
-                    android:textColorHint="#757575" />
+                    android:textColorHint="#757575"
+                    tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Email -->
@@ -83,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
                     android:textColorHint="#757575"
-                    tools:ignore="DuplicateIds,TextContrastCheck" />
+                    tools:ignore="DuplicateIds,TextContrastCheck,VisualLintTextFieldSize" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Senha -->
@@ -100,7 +87,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
-                    tools:ignore="TextContrastCheck" />
+                    tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Confirmar Senha -->
@@ -114,9 +101,10 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edtConfirmarSenha"
-                    android:inputType="textPassword"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Botão Cadastrar -->
@@ -126,21 +114,27 @@
                 android:layout_height="54dp"
                 android:text="@string/entrar3"
                 android:textSize="16sp"
+                app:backgroundTint="#1C1C1C"
                 app:cornerRadius="12dp"
-                app:backgroundTint="#1C1C1C" />
+                tools:ignore="VisualLintButtonSize" />
 
             <!-- Link para Login -->
             <TextView
                 android:id="@+id/btnIrLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/already_have_account"
-                android:textColor="#666666"
-                android:textSize="14sp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp"
                 android:clickable="true"
-                android:focusable="true" />
+                android:contentDescription="@string/already_have_account"
+                android:focusable="true"
+                android:minHeight="48dp"
+                android:text="@string/already_have_account"
+                android:textColor="#1976D2"
+                android:textColorLink="#0B0B0B"
+                android:textSize="14sp"
+                tools:ignore="SpeakableTextPresentCheck"
+                tools:text="Já tem uma conta? Entrar" />
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>

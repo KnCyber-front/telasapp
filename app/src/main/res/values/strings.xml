@@ -20,4 +20,10 @@
     <string name="confirmar_senha2">confirmar senha</string>
     <string name="entrar3">Entrar</string>
     <string name="already_have_account" />
+    <string name="login_1">Login</string>
+    <string name="telefone_login">telefone</string>
+    <string name="email_login">email</string>
+    <string name="senha_login">senha</string>
+    <string name="entrar_login">Entrar</string>
+    <string name="esqueci_senha_login">Esqueci senha</string>
 </resources>
