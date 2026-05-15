@@ -93,18 +93,21 @@
                 android:textColor="#FFFFFF"
                 android:backgroundTint="#1F1F1F"
                 android:layout_marginBottom="24dp"
+                app:cornerRadius="12dp"
                 tools:ignore="VisualLintButtonSize" />
 
             <!-- Link Esqueci Senha -->
             <TextView
                 android:id="@+id/tvEsqueciSenha"
-                android:layout_width="wrap_content"
+                android:layout_width="107dp"
                 android:layout_height="wrap_content"
-                android:text="@string/esqueci_senha_login"
-                android:textColor="#0066FF"
-                android:textSize="15sp"
                 android:layout_gravity="center"
-                android:textStyle="bold"/>
+                android:text="@string/esqueci_senha_login"
+                android:textColor="#1976D2"
+                android:textColorLink="#0B0B0B"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

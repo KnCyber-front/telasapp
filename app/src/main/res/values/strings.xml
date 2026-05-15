@@ -26,4 +26,10 @@
     <string name="senha_login">senha</string>
     <string name="entrar_login">Entrar</string>
     <string name="esqueci_senha_login">Esqueci senha</string>
+    <string name="esqueci_senha">Esqueci Senha</string>
+    <string name="esqueci_senha2">Esqueci Senha</string>
+    <string name="email3">email</string>
+    <string name="digite_o_c_digo_enviado_para_o_seu_e_mail">Digite o código enviado para o seu e-mail</string>
+    <string name="verificar_c_digo">Verificar Código</string>
+    <string name="reenviar_c_digo">Reenviar código</string>
 </resources>
