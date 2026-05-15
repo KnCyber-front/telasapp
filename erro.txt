@@ -1,0 +1,828 @@
+Initialized native services in: C:\Users\famil\.gradle\native
+Initialized jansi services in: C:\Users\famil\.gradle\native
+The client will now receive all logging from the daemon (pid: 3376). The daemon log file: C:\Users\famil\.gradle\daemon\9.3.1\daemon-3376.out.log
+Starting 13th build in daemon [uptime: 18 mins 13.869 secs, performance: 89%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 12 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '1.0.0']
+Settings evaluated using settings file 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\build.gradle.kts'.
+Included projects: [root project 'MeuAppNovo', project ':app']
+
+> Configure project :
+Evaluating root project 'MeuAppNovo' using build file 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.1.0', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.1.0']
+Build f49173f6-5c31-40f6-9da8-752dfb1813b6 is started
+Using default execution profile
+All projects evaluated.
+Task name matched 'build'
+Selected primary task 'build' from project :
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:generateDebugResources', task ':app:packageDebugResources', task ':app:processDebugNavigationResources', task ':app:parseDebugLocalResources', task ':app:generateDebugRFile', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:compressDebugAssets', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:desugarDebugFileDependencies', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:checkDebugAarMetadata', task ':app:mapDebugSourceSetPaths', task ':app:compileDebugNavigationResources', task ':app:mergeDebugResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:dexBuilderDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug', task ':app:preReleaseBuild', task ':app:mergeReleaseJniLibFolders', task ':app:mergeReleaseNativeLibs', task ':app:stripReleaseDebugSymbols', task ':app:extractReleaseNativeSymbolTables', task ':app:mergeReleaseNativeDebugMetadata', task ':app:checkReleaseDuplicateClasses', task ':app:generateReleaseResources', task ':app:packageReleaseResources', task ':app:processReleaseNavigationResources', task ':app:parseReleaseLocalResources', task ':app:generateReleaseRFile', task ':app:compileReleaseKotlin', task ':app:javaPreCompileRelease', task ':app:compileReleaseJavaWithJavac', task ':app:checkReleaseAarMetadata', task ':app:mapReleaseSourceSetPaths', task ':app:compileReleaseNavigationResources', task ':app:mergeReleaseResources', task ':app:createReleaseCompatibleScreenManifests', task ':app:extractDeepLinksRelease', task ':app:processReleaseMainManifest', task ':app:processReleaseManifest', task ':app:processReleaseManifestForPackage', task ':app:processReleaseResources', task ':app:dexBuilderRelease', task ':app:desugarReleaseFileDependencies', task ':app:mergeReleaseStartupProfile', task ':app:mergeExtDexRelease', task ':app:mergeDexRelease', task ':app:mergeReleaseArtProfile', task ':app:mergeReleaseGlobalSynthetics', task ':app:compileReleaseArtProfile', task ':app:generateReleaseAssets', task ':app:mergeReleaseAssets', task ':app:compressReleaseAssets', task ':app:extractReleaseVersionControlInfo', task ':app:extractProguardFiles', task ':app:generateReleaseLintVitalReportModel', task ':app:lintVitalAnalyzeRelease', task ':app:lintVitalReportRelease', task ':app:lintVitalRelease', task ':app:processReleaseJavaRes', task ':app:mergeReleaseJavaResource', task ':app:optimizeReleaseResources', task ':app:collectReleaseDependencies', task ':app:sdkReleaseDependencyData', task ':app:writeReleaseAppMetadata', task ':app:writeReleaseSigningConfigVersions', task ':app:packageRelease', task ':app:createReleaseApkListingFileRedirect', task ':app:assembleRelease', task ':app:assemble', task ':app:bundleDebugClassesToCompileJar', task ':app:preDebugAndroidTestBuild', task ':app:generateDebugAndroidTestLintModel', task ':app:generateDebugLintReportModel', task ':app:preDebugUnitTestBuild', task ':app:generateDebugUnitTestLintModel', task ':app:lintAnalyzeDebug', task ':app:lintAnalyzeDebugAndroidTest', task ':app:lintAnalyzeDebugUnitTest', task ':app:lintReportDebug', task ':app:lintDebug', task ':app:lint', task ':app:bundleDebugClassesToRuntimeJar', task ':app:compileDebugUnitTestKotlin', task ':app:javaPreCompileDebugUnitTest', task ':app:compileDebugUnitTestJavaWithJavac', task ':app:processDebugUnitTestJavaRes', task ':app:testDebugUnitTest', task ':app:test', task ':app:check', task ':app:build']
+Tasks that were excluded: []
+Resolve mutations for :app:preBuild (Thread[#1533,Execution worker,5,main]) started.
+:app:preBuild (Thread[#1533,Execution worker,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#1533,Execution worker,5,main]) started.
+:app:preDebugBuild (Thread[#1533,Execution worker,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#1533,Execution worker,5,main]) started.
+:app:mergeDebugNativeDebugMetadata (Thread[#1533,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+Resolve mutations for :app:generateDebugResources (Thread[#1533,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#1533,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#1533,Execution worker,5,main]) started.
+:app:packageDebugResources (Thread[#1533,Execution worker,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:processDebugNavigationResources (Thread[#1532,included builds,5,main]) started.
+:app:processDebugNavigationResources (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#1532,included builds,5,main]) started.
+:app:parseDebugLocalResources (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:generateDebugRFile (Thread[#1532,included builds,5,main]) started.
+:app:generateDebugRFile (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':app:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugRFile' as it is up-to-date.
+Resolve mutations for :app:compileDebugKotlin (Thread[#1532,included builds,5,main]) started.
+:app:compileDebugKotlin (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:compileDebugKotlin UP-TO-DATE
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\kotlin', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\debug\java', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\debug\kotlin', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\debug\java', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\kotlin', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\debug\java', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\debug\kotlin', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\debug\java', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\kotlin', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\debug\java', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\debug\kotlin', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\debug\java', not found
+Custom actions are attached to task ':app:compileDebugKotlin'.
+Caching disabled for task ':app:compileDebugKotlin' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugKotlin' as it is up-to-date.
+Resolve mutations for :app:javaPreCompileDebug (Thread[#1532,included builds,5,main]) started.
+:app:javaPreCompileDebug (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :app:compileDebugJavaWithJavac (Thread[#1532,included builds,5,main]) started.
+:app:compileDebugJavaWithJavac (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+Skipping task ':app:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :app:generateDebugAssets (Thread[#1532,included builds,5,main]) started.
+:app:generateDebugAssets (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:generateDebugAssets UP-TO-DATE
+Skipping task ':app:generateDebugAssets' as it has no actions.
+Resolve mutations for :app:mergeDebugAssets (Thread[#1532,included builds,5,main]) started.
+:app:mergeDebugAssets (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:mergeDebugAssets UP-TO-DATE
+Caching disabled for task ':app:mergeDebugAssets' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugAssets' as it is up-to-date.
+Resolve mutations for :app:compressDebugAssets (Thread[#1532,included builds,5,main]) started.
+:app:compressDebugAssets (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:compressDebugAssets UP-TO-DATE
+Caching disabled for task ':app:compressDebugAssets' because:
+  Build cache is disabled
+Skipping task ':app:compressDebugAssets' as it is up-to-date.
+Resolve mutations for :app:processDebugJavaRes (Thread[#1532,included builds,5,main]) started.
+:app:processDebugJavaRes (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:processDebugJavaRes UP-TO-DATE
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\resources', not found
+file or directory 'C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\debug\resources', not found
+Caching disabled for task ':app:processDebugJavaRes' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:processDebugJavaRes' as it is up-to-date.
+work action resolve out (project :app) (Thread[#1532,included builds,5,main]) started.
+Resolve mutations for :app:mergeDebugJavaResource (Thread[#1532,included builds,5,main]) started.
+:app:mergeDebugJavaResource (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+Caching disabled for task ':app:mergeDebugJavaResource' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mergeDebugJavaResource' as it is up-to-date.
+Resolve mutations for :app:checkDebugDuplicateClasses (Thread[#1532,included builds,5,main]) started.
+:app:checkDebugDuplicateClasses (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+Caching disabled for task ':app:checkDebugDuplicateClasses' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugDuplicateClasses' as it is up-to-date.
+Resolve mutations for :app:desugarDebugFileDependencies (Thread[#1532,included builds,5,main]) started.
+:app:desugarDebugFileDependencies (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+Caching disabled for task ':app:desugarDebugFileDependencies' because:
+  Build cache is disabled
+Skipping task ':app:desugarDebugFileDependencies' as it is up-to-date.
+Resolve mutations for :app:mergeExtDexDebug (Thread[#1532,included builds,5,main]) started.
+:app:mergeExtDexDebug (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:mergeExtDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeExtDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeExtDexDebug' as it is up-to-date.
+Resolve mutations for :app:mergeLibDexDebug (Thread[#1532,included builds,5,main]) started.
+:app:mergeLibDexDebug (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:mergeLibDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeLibDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeLibDexDebug' as it is up-to-date.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#1532,included builds,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#1532,included builds,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:compileDebugNavigationResources (Thread[#1532,included builds,5,main]) started.
+:app:compileDebugNavigationResources (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:compileDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#1532,included builds,5,main]) started.
+:app:mergeDebugResources (Thread[#1532,included builds,5,main]) started.
+
+> Task :app:mergeDebugResources
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Task ':app:mergeDebugResources' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:mergeDebugResources'.
+[MergeResources] Inputs are non-incremental full task action.
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-hi\values-hi.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-hi_values-hi.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-watch-v21\values-watch-v21.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-watch-v21_values-watch-v21.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-watch-v20\values-watch-v20.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-watch-v20_values-watch-v20.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values\values.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values_values.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-hr\values-hr.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-hr_values-hr.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-hu\values-hu.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-hu_values-hu.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-pt\values-pt.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-pt_values-pt.arsc.flat
+
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#1533,Execution worker,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#1533,Execution worker,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#1533,Execution worker,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#1533,Execution worker,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#1533,Execution worker,5,main]) started.
+:app:processDebugMainManifest (Thread[#1533,Execution worker,5,main]) started.
+
+> Task :app:processDebugMainManifest
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Task ':app:processDebugMainManifest' is not up-to-date because:
+  Value of input property 'optionalFeatures' has changed for task ':app:processDebugMainManifest'
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\8bc19341a3f94f0aa77d0eae1e3b8605\workspace\transformed\material-1.12.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\140ba90d0ce42392b6286d12e4316123\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\b680de9c0a3546aff793a845301e724e\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\e095e6d20817bcefd12aad09c7369077\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\aa466b5c2d472cf68ba330a386ac9bce\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\f3ee7b05386d7f09e4c11ae28ce65762\workspace\transformed\fragment-1.5.4\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\e335127edbc1011841b57c2522070e88\workspace\transformed\activity-1.13.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\92bd0e7c020d12b8fd3039a64aeadb57\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\c0a11bab670d6a9d8bb941b22f441d6b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\41be986e97db6619d447e6a6f15774ae\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\6d42c3ad566f689eefa572780d13af3b\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\4b0b2c2e11d5d0f083ae6629b757a126\workspace\transformed\transition-1.5.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\718de8af8ecd4019e9e214d52c14c4f1\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\a2f02fc891bc4b49911fa0613ee54380\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\01dd5e3d2671e3d1cf8630ca1490490b\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\f1a3b8d15fb5cb280ff3fc9a12819390\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\57d6635d1134e2258db1f6f93fba8ac7\workspace\transformed\loader-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\325bcffed74ae0aa529eed8c50a80330\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\0780be9b90add94d6024e0673318952e\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\c6833d85d62bb42f102d3c8530a7a30c\workspace\transformed\customview-1.1.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\21e3933ff0d4a2949e4958fab79a034a\workspace\transformed\core-1.18.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\6edc1b784d428f88ae4c66ca2b51b9c8\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\82b3a0255d66f8b60e87b2a7b17988fa\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\ecc3c90af46b78c871556c04def42d8c\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\34a1cb272c11f392429812c31ac6bc10\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\0d5d5f27594d390843505b58c86872ff\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\c4b4f2165fb071f12ca8aa8702254224\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\65f6ace7ccdeed45c7d20a892442f382\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\ca79f3379475ca5bf200a2ed7f255542\workspace\transformed\core-ktx-1.18.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\a4c37de1780f2e4de656e465db19ee6c\workspace\transformed\navigationevent\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\6a61160fadfcc5dc8d2a8d89f7fe006c\workspace\transformed\core-viewtree-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\651ca6669712ff11ebabc1ceeabfc661\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\93a765110bd319516a1585b2347cacfa\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\2394fdb0698c89a91d0c4bfd16626aa0\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\ab9466506b4ea35dd185563a681becd5\workspace\transformed\cardview-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\755c437b59f7f085feec416ae9d857a0\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\7b1c3d1b602a58b9978d971ff0e69753\workspace\transformed\tracing-1.2.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\cb1fa60d5f3f7e70c3e2bd534335988a\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\24e27cfd224c1f2606b09c71098abbdd\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\3d7db7f662a6b649e473ed35e1bafa9b\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\ec712f03d7516599b7e612522154ced1\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\4af83a7a925e56a2ce6e47445813776b\workspace\transformed\print-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\331a6d438166712ac14b1b36155d15fd\workspace\transformed\runtime-annotation\AndroidManifest.xml
+Merging main manifest C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml
+
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\8bc19341a3f94f0aa77d0eae1e3b8605\workspace\transformed\material-1.12.0\AndroidManifest.xml
+Merging manifest with lower [com.google.android.material:material:1.12.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [com.google.android.material:material:1.12.0] AndroidManifest.xml:20:5-44
+application defined in both files...
+Merging application with lower [com.google.android.material:material:1.12.0] AndroidManifest.xml:22:5-20
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\140ba90d0ce42392b6286d12e4316123\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml
+Merging manifest with lower [androidx.constraintlayout:constraintlayout:2.2.1] AndroidManifest.xml:2:1-9:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.constraintlayout:constraintlayout:2.2.1] AndroidManifest.xml:5:5-44
+application defined in both files...
+Merging application with lower [androidx.constraintlayout:constraintlayout:2.2.1] AndroidManifest.xml:7:5-20
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\b680de9c0a3546aff793a845301e724e\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml
+Merging manifest with lower [androidx.appcompat:appcompat-resources:1.7.1] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.appcompat:appcompat-resources:1.7.1] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\e095e6d20817bcefd12aad09c7369077\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml
+Merging manifest with lower [androidx.appcompat:appcompat:1.7.1] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.appcompat:appcompat:1.7.1] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\aa466b5c2d472cf68ba330a386ac9bce\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.viewpager2:viewpager2:1.0.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.viewpager2:viewpager2:1.0.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\f3ee7b05386d7f09e4c11ae28ce65762\workspace\transformed\fragment-1.5.4\AndroidManifest.xml
+Merging manifest with lower [androidx.fragment:fragment:1.5.4] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.fragment:fragment:1.5.4] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\e335127edbc1011841b57c2522070e88\workspace\transformed\activity-1.13.0\AndroidManifest.xml
+Merging manifest with lower [androidx.activity:activity:1.13.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.activity:activity:1.13.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\92bd0e7c020d12b8fd3039a64aeadb57\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml
+Merging manifest with lower [androidx.emoji2:emoji2-views-helper:1.3.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.emoji2:emoji2-views-helper:1.3.0] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\c0a11bab670d6a9d8bb941b22f441d6b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml
+Merging manifest with lower [androidx.emoji2:emoji2:1.3.0] AndroidManifest.xml:17:1-35:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.emoji2:emoji2:1.3.0] AndroidManifest.xml:21:5-44
+application defined in both files...
+Merging application with lower [androidx.emoji2:emoji2:1.3.0] AndroidManifest.xml:23:5-33:19
+Adopted [provider: null]
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\41be986e97db6619d447e6a6f15774ae\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml
+Merging manifest with lower [androidx.drawerlayout:drawerlayout:1.1.1] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.drawerlayout:drawerlayout:1.1.1] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\6d42c3ad566f689eefa572780d13af3b\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml
+Merging manifest with lower [androidx.coordinatorlayout:coordinatorlayout:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.coordinatorlayout:coordinatorlayout:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\4b0b2c2e11d5d0f083ae6629b757a126\workspace\transformed\transition-1.5.0\AndroidManifest.xml
+Merging manifest with lower [androidx.transition:transition:1.5.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.transition:transition:1.5.0] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\718de8af8ecd4019e9e214d52c14c4f1\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.dynamicanimation:dynamicanimation:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.dynamicanimation:dynamicanimation:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\a2f02fc891bc4b49911fa0613ee54380\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml
+Merging manifest with lower [androidx.vectordrawable:vectordrawable-animated:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.vectordrawable:vectordrawable-animated:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\01dd5e3d2671e3d1cf8630ca1490490b\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml
+Merging manifest with lower [androidx.vectordrawable:vectordrawable:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.vectordrawable:vectordrawable:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\f1a3b8d15fb5cb280ff3fc9a12819390\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.legacy:legacy-support-core-utils:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.legacy:legacy-support-core-utils:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\57d6635d1134e2258db1f6f93fba8ac7\workspace\transformed\loader-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.loader:loader:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.loader:loader:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\325bcffed74ae0aa529eed8c50a80330\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.viewpager:viewpager:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.viewpager:viewpager:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\0780be9b90add94d6024e0673318952e\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml
+Merging manifest with lower [androidx.recyclerview:recyclerview:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.recyclerview:recyclerview:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\c6833d85d62bb42f102d3c8530a7a30c\workspace\transformed\customview-1.1.0\AndroidManifest.xml
+Merging manifest with lower [androidx.customview:customview:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.customview:customview:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\21e3933ff0d4a2949e4958fab79a034a\workspace\transformed\core-1.18.0\AndroidManifest.xml
+Merging manifest with lower [androidx.core:core:1.18.0] AndroidManifest.xml:17:1-30:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.core:core:1.18.0] AndroidManifest.xml:20:5-44
+Adopted [permission: null]
+Adopted [uses-permission: null]
+application defined in both files...
+Merging application with lower [androidx.core:core:1.18.0] AndroidManifest.xml:28:5-89
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\6edc1b784d428f88ae4c66ca2b51b9c8\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml
+Merging manifest with lower [androidx.savedstate:savedstate:1.2.1] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.savedstate:savedstate:1.2.1] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\82b3a0255d66f8b60e87b2a7b17988fa\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-livedata:2.6.2] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-livedata:2.6.2] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\ecc3c90af46b78c871556c04def42d8c\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-viewmodel:2.6.2] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-viewmodel:2.6.2] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\34a1cb272c11f392429812c31ac6bc10\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-process:2.6.2] AndroidManifest.xml:17:1-35:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-process:2.6.2] AndroidManifest.xml:21:5-44
+application defined in both files...
+Merging application with lower [androidx.lifecycle:lifecycle-process:2.6.2] AndroidManifest.xml:23:5-33:19
+provider#androidx.startup.InitializationProvider defined in both files...
+Merging provider#androidx.startup.InitializationProvider with lower [androidx.lifecycle:lifecycle-process:2.6.2] AndroidManifest.xml:24:9-32:20
+Adopted [meta-data: null]
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\0d5d5f27594d390843505b58c86872ff\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-livedata-core:2.6.2] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-livedata-core:2.6.2] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\c4b4f2165fb071f12ca8aa8702254224\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-runtime:2.6.2] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-runtime:2.6.2] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\65f6ace7ccdeed45c7d20a892442f382\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\ca79f3379475ca5bf200a2ed7f255542\workspace\transformed\core-ktx-1.18.0\AndroidManifest.xml
+Merging manifest with lower [androidx.core:core-ktx:1.18.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.core:core-ktx:1.18.0] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\a4c37de1780f2e4de656e465db19ee6c\workspace\transformed\navigationevent\AndroidManifest.xml
+Merging manifest with lower [androidx.navigationevent:navigationevent-android:1.0.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.navigationevent:navigationevent-android:1.0.0] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\6a61160fadfcc5dc8d2a8d89f7fe006c\workspace\transformed\core-viewtree-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.core:core-viewtree:1.0.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.core:core-viewtree:1.0.0] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\651ca6669712ff11ebabc1ceeabfc661\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml
+Merging manifest with lower [androidx.annotation:annotation-experimental:1.4.1] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.annotation:annotation-experimental:1.4.1] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\93a765110bd319516a1585b2347cacfa\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml
+Merging manifest with lower [androidx.versionedparcelable:versionedparcelable:1.1.1] AndroidManifest.xml:17:1-27:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.versionedparcelable:versionedparcelable:1.1.1] AndroidManifest.xml:20:5-22:41
+application defined in both files...
+Merging application with lower [androidx.versionedparcelable:versionedparcelable:1.1.1] AndroidManifest.xml:24:5-25:19
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\2394fdb0698c89a91d0c4bfd16626aa0\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.cursoradapter:cursoradapter:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.cursoradapter:cursoradapter:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\ab9466506b4ea35dd185563a681becd5\workspace\transformed\cardview-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.cardview:cardview:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.cardview:cardview:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml
+Merging manifest with lower [androidx.profileinstaller:profileinstaller:1.4.0] AndroidManifest.xml:17:1-55:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.profileinstaller:profileinstaller:1.4.0] AndroidManifest.xml:21:5-44
+application defined in both files...
+Merging application with lower [androidx.profileinstaller:profileinstaller:1.4.0] AndroidManifest.xml:23:5-53:19
+provider#androidx.startup.InitializationProvider defined in both files...
+Merging provider#androidx.startup.InitializationProvider with lower [androidx.profileinstaller:profileinstaller:1.4.0] AndroidManifest.xml:24:9-32:20
+Adopted [meta-data: null]
+Adopted [receiver: null]
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\755c437b59f7f085feec416ae9d857a0\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml
+Merging manifest with lower [androidx.startup:startup-runtime:1.1.1] AndroidManifest.xml:17:1-33:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.startup:startup-runtime:1.1.1] AndroidManifest.xml:21:5-23:41
+application defined in both files...
+Merging application with lower [androidx.startup:startup-runtime:1.1.1] AndroidManifest.xml:25:5-31:19
+provider#androidx.startup.InitializationProvider defined in both files...
+Merging provider#androidx.startup.InitializationProvider with lower [androidx.startup:startup-runtime:1.1.1] AndroidManifest.xml:26:9-30:34
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\7b1c3d1b602a58b9978d971ff0e69753\workspace\transformed\tracing-1.2.0\AndroidManifest.xml
+Merging manifest with lower [androidx.tracing:tracing:1.2.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.tracing:tracing:1.2.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\cb1fa60d5f3f7e70c3e2bd534335988a\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.interpolator:interpolator:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.interpolator:interpolator:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\24e27cfd224c1f2606b09c71098abbdd\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml
+Merging manifest with lower [androidx.arch.core:core-runtime:2.2.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.arch.core:core-runtime:2.2.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\3d7db7f662a6b649e473ed35e1bafa9b\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.documentfile:documentfile:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.documentfile:documentfile:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\ec712f03d7516599b7e612522154ced1\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\4af83a7a925e56a2ce6e47445813776b\workspace\transformed\print-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.print:print:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.print:print:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\famil\.gradle\caches\9.3.1\transforms\331a6d438166712ac14b1b36155d15fd\workspace\transformed\runtime-annotation\AndroidManifest.xml
+Merging manifest with lower [androidx.compose.runtime:runtime-annotation-android:1.9.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.compose.runtime:runtime-annotation-android:1.9.0] AndroidManifest.xml:5:5-44
+Merging result: SUCCESS
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.meuappnovo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <permission
+11-->[androidx.core:core:1.18.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\21e3933ff0d4a2949e4958fab79a034a\workspace\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.meuappnovo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.18.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\21e3933ff0d4a2949e4958fab79a034a\workspace\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.18.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\21e3933ff0d4a2949e4958fab79a034a\workspace\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.meuappnovo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.18.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\21e3933ff0d4a2949e4958fab79a034a\workspace\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.18.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\21e3933ff0d4a2949e4958fab79a034a\workspace\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:4:5-44:19
+18        android:allowBackup="true"
+18-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.18.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\21e3933ff0d4a2949e4958fab79a034a\workspace\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:6:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+22-->INJECTED
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:7:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:8:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:9:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:10:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:11:9-35
+28        android:theme="@style/Theme.MeuAppNovo" >
+28-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:12:9-48
+29        <activity
+29-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:14:9-16:40
+30            android:name="com.example.meuappnovo.Main2principalmenu"
+30-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:15:13-47
+31            android:exported="false" />
+31-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:16:13-37
+32        <activity
+32-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:18:9-20:40
+33            android:name="com.example.meuappnovo.NovaSenhaActivity"
+33-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:19:13-46
+34            android:exported="false" />
+34-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:20:13-37
+35        <activity
+35-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:22:9-24:40
+36            android:name="com.example.meuappnovo.ForgotPasswordActivity"
+36-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:23:13-51
+37            android:exported="false" />
+37-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:24:13-37
+38        <activity
+38-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:26:9-28:40
+39            android:name="com.example.meuappnovo.RegisterActivity"
+39-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:27:13-45
+40            android:exported="false" />
+40-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:28:13-37
+41        <activity
+41-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:30:9-32:40
+42            android:name="com.example.meuappnovo.LoginActivity"
+42-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:31:13-42
+43            android:exported="false" />
+43-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:32:13-37
+44
+45        <!-- Mantenha APENAS esta declaração do Mainboasvindas -->
+46        <activity
+46-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:35:9-42:20
+47            android:name="com.example.meuappnovo.Mainboasvindas"
+47-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:36:13-43
+48            android:exported="true" >
+48-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:37:13-36
+49            <intent-filter>
+49-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:38:13-41:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:39:17-69
+50-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:39:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:40:17-77
+52-->C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\AndroidManifest.xml:40:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\c0a11bab670d6a9d8bb941b22f441d6b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.3.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\c0a11bab670d6a9d8bb941b22f441d6b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.example.meuappnovo.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\c0a11bab670d6a9d8bb941b22f441d6b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\c0a11bab670d6a9d8bb941b22f441d6b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\c0a11bab670d6a9d8bb941b22f441d6b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\c0a11bab670d6a9d8bb941b22f441d6b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\c0a11bab670d6a9d8bb941b22f441d6b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\famil\.gradle\caches\9.3.1\transforms\34a1cb272c11f392429812c31ac6bc10\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\famil\.gradle\caches\9.3.1\transforms\34a1cb272c11f392429812c31ac6bc10\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\famil\.gradle\caches\9.3.1\transforms\34a1cb272c11f392429812c31ac6bc10\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <receiver
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+72            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+73            android:directBootAware="false"
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+74            android:enabled="true"
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+75            android:exported="true"
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+76            android:permission="android.permission.DUMP" >
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+78                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+81                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+84                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+87                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\famil\.gradle\caches\9.3.1\transforms\e0cfd97246821369189dd22dde1a1145\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>
+
+Merged manifest saved to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_manifest\debug\processDebugMainManifest\AndroidManifest.xml
+Resolve mutations for :app:processDebugManifest (Thread[#1536,Execution worker Thread 4,5,main]) started.
+:app:processDebugManifest (Thread[#1536,Execution worker Thread 4,5,main]) started.
+
+> Task :app:processDebugManifest
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Task ':app:processDebugManifest' is not up-to-date because:
+  Input property 'mainMergedManifest' file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_manifest\debug\processDebugMainManifest\AndroidManifest.xml has changed.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#1536,Execution worker Thread 4,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#1538,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :app:mergeDebugJniLibFolders (Thread[#1541,Execution worker Thread 9,5,main]) started.
+:app:mergeDebugJniLibFolders (Thread[#1541,Execution worker Thread 9,5,main]) started.
+
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugJniLibFolders' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date.
+Resolve mutations for :app:mergeDebugNativeLibs (Thread[#1541,Execution worker Thread 9,5,main]) started.
+:app:mergeDebugNativeLibs (Thread[#1541,Execution worker Thread 9,5,main]) started.
+
+> Task :app:mergeDebugResources FAILED
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v16\values-v16.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v16_values-v16.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-af\values-af.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-af_values-af.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-w320dp-land-v13\values-w320dp-land-v13.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-w320dp-land-v13_values-w320dp-land-v13.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-h320dp-port-v13\values-h320dp-port-v13.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-h320dp-port-v13_values-h320dp-port-v13.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-w360dp-port-v13\values-w360dp-port-v13.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-w360dp-port-v13_values-w360dp-port-v13.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-hy\values-hy.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-hy_values-hy.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v17\values-v17.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v17_values-v17.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-iw\values-iw.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-iw_values-iw.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-am\values-am.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-am_values-am.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-in\values-in.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-in_values-in.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ja\values-ja.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ja_values-ja.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v21\values-v21.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v21_values-v21.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-is\values-is.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-is_values-is.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v23\values-v23.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v23_values-v23.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ar\values-ar.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ar_values-ar.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-es-rUS\values-es-rUS.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-es-rUS_values-es-rUS.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sw600dp-v13\values-sw600dp-v13.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sw600dp-v13_values-sw600dp-v13.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-zh-rHK\values-zh-rHK.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-zh-rHK_values-zh-rHK.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v28\values-v28.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v28_values-v28.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sl\values-sl.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sl_values-sl.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ro\values-ro.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ro_values-ro.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-zu\values-zu.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-zu_values-zu.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sk\values-sk.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sk_values-sk.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v22\values-v22.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v22_values-v22.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ru\values-ru.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ru_values-ru.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-si\values-si.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-si_values-si.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ky\values-ky.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ky_values-ky.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v31\values-v31.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v31_values-v31.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ca\values-ca.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ca_values-ca.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-lo\values-lo.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-lo_values-lo.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ta\values-ta.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ta_values-ta.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-cs\values-cs.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-cs_values-cs.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v25\values-v25.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v25_values-v25.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-mr\values-mr.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-mr_values-mr.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-de\values-de.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-de_values-de.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sv\values-sv.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sv_values-sv.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-port\values-port.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-port_values-port.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-be\values-be.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-be_values-be.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-en-rGB\values-en-rGB.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-en-rGB_values-en-rGB.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-da\values-da.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-da_values-da.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-lv\values-lv.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-lv_values-lv.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-uz\values-uz.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-uz_values-uz.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-h480dp-land-v13\values-h480dp-land-v13.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v34\values-v34.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v34_values-v34.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sq\values-sq.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sq_values-sq.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ms\values-ms.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ms_values-ms.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-nb\values-nb.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-nb_values-nb.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-mk\values-mk.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-mk_values-mk.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sw\values-sw.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sw_values-sw.arsc.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\drawable\ic_launcher_foreground.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\drawable_ic_launcher_foreground.xml.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-h720dp-v13\values-h720dp-v13.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-h720dp-v13_values-h720dp-v13.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-night-v8\values-night-v8.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-night-v8_values-night-v8.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-en-rIN\values-en-rIN.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-en-rIN_values-en-rIN.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-hdpi-v4\values-hdpi-v4.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-hdpi-v4_values-hdpi-v4.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-eu\values-eu.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-eu_values-eu.arsc.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\xml\data_extraction_rules.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\xml_data_extraction_rules.xml.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-el\values-el.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-el_values-el.arsc.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\layout\activity_register.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\layout_activity_register.xml.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-en-rAU\values-en-rAU.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-en-rAU_values-en-rAU.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-small-v4\values-small-v4.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-small-v4_values-small-v4.arsc.flat
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xxxhdpi_ic_launcher.webp.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-en-rXC\values-en-rXC.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-en-rXC_values-en-rXC.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ne\values-ne.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ne_values-ne.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-mn\values-mn.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-mn_values-mn.arsc.flat
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xxxhdpi_ic_launcher_round.webp.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\layout\activity_login.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\layout_activity_login.xml.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-pl\values-pl.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-pl_values-pl.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-it\values-it.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-it_values-it.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-w400dp-port-v13\values-w400dp-port-v13.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-w400dp-port-v13_values-w400dp-port-v13.arsc.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-anydpi-v26_ic_launcher.xml.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-large-v4\values-large-v4.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-large-v4_values-large-v4.arsc.flat
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-mdpi_ic_launcher_round.webp.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-pt-rBR\values-pt-rBR.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-pt-rBR_values-pt-rBR.arsc.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\xml\backup_rules.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\xml_backup_rules.xml.flat
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-mdpi\ic_launcher.webp to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-mdpi_ic_launcher.webp.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v18\values-v18.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v18_values-v18.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-or\values-or.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-or_values-or.arsc.flat
+Compiling image file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\drawable\robot.png
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\drawable\robot.png to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\drawable_robot.png.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-h360dp-land-v13\values-h360dp-land-v13.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-h360dp-land-v13_values-h360dp-land-v13.arsc.flat
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xxhdpi_ic_launcher_round.webp.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-az\values-az.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-az_values-az.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v24\values-v24.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v24_values-v24.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-lt\values-lt.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-lt_values-lt.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-b+sr+Latn\values-b+sr+Latn.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-bg\values-bg.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-bg_values-bg.arsc.flat
+Compiling image file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\drawable\machu.png
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\drawable\machu.png to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\drawable_machu.png.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-bs\values-bs.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-bs_values-bs.arsc.flat
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xhdpi_ic_launcher_round.webp.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-bn\values-bn.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-bn_values-bn.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-fr-rCA\values-fr-rCA.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-fr-rCA_values-fr-rCA.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-km\values-km.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-km_values-km.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-w600dp-land-v13\values-w600dp-land-v13.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-w600dp-land-v13_values-w600dp-land-v13.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-pt-rPT\values-pt-rPT.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-pt-rPT_values-pt-rPT.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-land\values-land.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-land_values-land.arsc.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\layout\activity_forgot_password.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\layout_activity_forgot_password.xml.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-tl\values-tl.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-tl_values-tl.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-en-rCA\values-en-rCA.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-en-rCA_values-en-rCA.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-kk\values-kk.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-kk_values-kk.arsc.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-anydpi-v26_ic_launcher_round.xml.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-kn\values-kn.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-kn_values-kn.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-th\values-th.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-th_values-th.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sr\values-sr.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sr_values-sr.arsc.flat
+C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values\values.xml: Failed to compile file
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-uk\values-uk.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-uk_values-uk.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ldrtl-v17\values-ldrtl-v17.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ldrtl-v17_values-ldrtl-v17.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-xlarge-v4\values-xlarge-v4.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-xlarge-v4_values-xlarge-v4.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-te\values-te.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-te_values-te.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-es\values-es.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-es_values-es.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ur\values-ur.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ur_values-ur.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-my\values-my.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-my_values-my.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-et\values-et.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-et_values-et.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-zh-rCN\values-zh-rCN.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-zh-rCN_values-zh-rCN.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-h550dp-port-v13\values-h550dp-port-v13.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-h550dp-port-v13_values-h550dp-port-v13.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-zh-rTW\values-zh-rTW.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-zh-rTW_values-zh-rTW.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-nl\values-nl.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-nl_values-nl.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-fi\values-fi.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-fi_values-fi.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-gu\values-gu.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-gu_values-gu.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-pa\values-pa.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-pa_values-pa.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-b+es+419\values-b+es+419.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-b+es+419_values-b+es+419.arsc.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-fa\values-fa.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-fa_values-fa.arsc.flat
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xxhdpi_ic_launcher.webp.flat
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-hdpi_ic_launcher_round.webp.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\drawable\ic_launcher_background.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\drawable_ic_launcher_background.xml.flat
+Compiling XML table C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-gl\values-gl.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\values-gl_values-gl.arsc.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\layout\activity_mainboasvindas.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\layout_activity_mainboasvindas.xml.flat
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-xhdpi\ic_launcher.webp to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xhdpi_ic_launcher.webp.flat
+Compiling file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\mipmap-hdpi\ic_launcher.webp to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-hdpi_ic_launcher.webp.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\layout\activity_main.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\layout_activity_main.xml.flat
+Compiling xml file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\src\main\res\layout\activity_main2principalmenu.xml to C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_res\debug\mergeDebugResources\layout_activity_main2principalmenu.xml.flat
+
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+Skipping task ':app:mergeDebugNativeLibs' as it has no source files and no previous output files.
+
+> Task :app:processDebugManifestForPackage
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Task ':app:processDebugManifestForPackage' is not up-to-date because:
+  Input property 'mergedManifests' file C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main\app\build\intermediates\merged_manifests\debug\processDebugManifest\AndroidManifest.xml has changed.
+Build f49173f6-5c31-40f6-9da8-752dfb1813b6 is closed
+25 actionable tasks: 4 executed, 21 up-to-date
+Watched directory hierarchies: [C:\Users\famil\Downloads\telasapp-main (1)\telasapp-main]
