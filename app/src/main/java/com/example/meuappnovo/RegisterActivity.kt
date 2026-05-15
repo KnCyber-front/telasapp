@@ -74,7 +74,7 @@ class RegisterActivity : AppCompatActivity() {
 
             // Voltar para tela de login
             btnIrLogin.setOnClickListener{
-            startActivity(Intent(this, LoginActivity::class.java))
+            startActivity(Intent(this, Mainboasvindas::class.java))
             finish()
         }
 

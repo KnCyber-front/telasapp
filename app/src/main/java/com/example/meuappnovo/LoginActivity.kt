@@ -67,8 +67,8 @@ class LoginActivity : AppCompatActivity() {
         Toast.makeText(this, "Login realizado com sucesso!", Toast.LENGTH_SHORT).show()
 
         // Exemplo: Navegar para tela principal
-        // startActivity(Intent(this, MainActivity::class.java))
-        // finish()
+         startActivity(Intent(this, Mainboasvindas::class.java))
+         finish()
     }
 
     private fun irParaRedefinirSenha() {

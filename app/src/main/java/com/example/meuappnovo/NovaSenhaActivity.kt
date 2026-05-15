@@ -1,5 +1,6 @@
 package com.example.meuappnovo
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -53,11 +54,19 @@ class NovaSenhaActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // TODO: Aqui você atualiza a senha no Firebase ou no seu banco
+            // TODO: Aqui você deve atualizar a senha no Firebase / Backend
             Toast.makeText(this, "Senha alterada com sucesso!", Toast.LENGTH_SHORT).show()
 
-            // Voltar para tela de Login ou tela principal
-            finishAffinity() // Fecha todas as telas e volta para o início
+            // ==================== REDIRECIONAMENTO ====================
+            // Opção 1: Voltar para a tela de Login (RECOMENDADO)
+            val intent = Intent(this, LoginActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK
+            startActivity(intent)
+            finishAffinity() // Fecha todas as telas anteriores (Esqueci Senha, Nova Senha, etc.)
+
+            // Opção 2: Ir para tela principal (se preferir)
+            // startActivity(Intent(this, MainActivity::class.java))
+            // finishAffinity()
         }
     }
 }

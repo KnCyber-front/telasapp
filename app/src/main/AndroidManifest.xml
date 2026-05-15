@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MeuAppNovo">
         <activity
+            android:name=".Main2principalmenu"
+            android:exported="false" />
+        <activity
+            android:name=".Mainboasvindas"
+            android:exported="false" />
+        <activity
             android:name=".NovaSenhaActivity"
             android:exported="false" />
         <activity
@@ -24,7 +30,7 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Mainboasvindas"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
