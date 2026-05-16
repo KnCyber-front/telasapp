@@ -34,28 +34,19 @@
             android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Start a new\nsocial adventure."
+            android:text="Começe uma\nNova aventura."
             android:textSize="32sp"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:lineSpacingExtra="6dp"
-            android:layout_marginBottom="32dp"/>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="48dp">
-
-            <View android:layout_width="8dp" android:layout_height="8dp" android:background="#FFFFFF" android:layout_marginEnd="6dp"/>
-            <View android:layout_width="8dp" android:layout_height="8dp" android:background="#666666" android:layout_marginEnd="6dp"/>
-            <View android:layout_width="8dp" android:layout_height="8dp" android:background="#666666"/>
-        </LinearLayout>
+            android:layout_marginBottom="32dp"
+            tools:ignore="HardcodedText" />
 
         <!-- Card Branco -->
         <androidx.cardview.widget.CardView
@@ -74,10 +65,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Get involved with people and events around you."
+                    android:text="Participe da nossa comunidade."
                     android:textSize="16sp"
                     android:textColor="#333333"
-                    android:layout_marginBottom="24dp"/>
+                    android:layout_marginBottom="24dp"
+                    tools:ignore="HardcodedText" />
 
                 <!-- Botão Entrar -->
                 <Button
@@ -89,7 +81,8 @@
                     android:textColor="#FFFFFF"
                     android:backgroundTint="#1F1F1F"
                     android:layout_marginBottom="16dp"
-                    style="@style/Widget.MaterialComponents.Button" />
+                    style="@style/Widget.MaterialComponents.Button"
+                    tools:ignore="HardcodedText" />
 
                 <!-- Botão Criar Conta (agora é Button de verdade) -->
                 <Button
