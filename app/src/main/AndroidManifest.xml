@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MeuAppNovo">
         <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
             android:name=".Novasenha"
             android:exported="false" />
         <activity
